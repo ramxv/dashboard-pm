@@ -65,30 +65,6 @@ export const ObservationsSection: React.FC = () => {
           </div>
         </div>
 
-        <div className="observation-card observation-feedback">
-          <h3>💬 Retroalimentación Reciente</h3>
-          <div className="feedback-item">
-            <div className="feedback-header">
-              <strong>Cliente - 15/10/2025</strong>
-              <span className="rating">⭐⭐⭐⭐⭐</span>
-            </div>
-            <p>"Muy satisfecho con el progreso. La interfaz es intuitiva y las estilistas están emocionadas por usar el sistema. Sugerencia: agregar campo de notas en los registros de servicios."</p>
-          </div>
-          <div className="feedback-item">
-            <div className="feedback-header">
-              <strong>Equipo Técnico - 18/10/2025</strong>
-              <span className="rating">🟢 Positivo</span>
-            </div>
-            <p>"El uso de Laravel 12 ha acelerado el desarrollo. La arquitectura modular facilita el mantenimiento. Recomendación: implementar caché para mejorar rendimiento de reportes."</p>
-          </div>
-          <div className="feedback-item">
-            <div className="feedback-header">
-              <strong>Usuarios Beta - 20/10/2025</strong>
-              <span className="rating">⭐⭐⭐⭐</span>
-            </div>
-            <p>"La aplicación es muy fácil de usar. Me encanta poder ver el historial de servicios. Sería útil tener una app móvil dedicada en el futuro."</p>
-          </div>
-        </div>
       </div>
     </section>
   );
